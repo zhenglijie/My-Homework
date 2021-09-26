@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<view class="box">
+  <view class="title">随机彩票号码生成器</view>
+  <view class="Layout">
+    <view>生成的彩票号码是：</view>
+    <view>{{num}}</view>
+  </view>
+
+  <button class="btn" type="primary" bindtap="generate">生成彩票号码</button>
+  <view class="favorite_sentence">In short, the years are long, but it is worth waiting for.</view>
+  <view class="box">
+    <view>班级：电科19-2</view>
+    <view>学号：201923010234</view>
+    <view>姓名：郑立杰</view>
+  </view>
+</view>
